@@ -89,3 +89,45 @@ HTML links are defined with the `<a>` tag:
   </body>
 </html>
 ```
+
+
+The link's destination is specified in the `href` attribute. 
+
+Attributes are used to provide additional information about HTML elements.
+
+You will learn more about attributes in a later chapter.
+
+## HTML Images
+
+HTML images are defined with the `<img>` tag.
+
+The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML Images</h1>
+    <p>HTML images are defined with the "img" tag:</p>
+
+    <img
+      src="./assets/w3schools.jpg"
+      alt="W3Schools.com"
+      width="104"
+      height="142"
+    >
+  </body>
+</html>
+```
+
+## How to View HTML Source
+
+Have you ever seen a Web page and wondered "Hey! How did they do that?"
+
+### View HTML Source Code:
+
+Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.
+
+### Inspect an HTML Element:
+
+Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
