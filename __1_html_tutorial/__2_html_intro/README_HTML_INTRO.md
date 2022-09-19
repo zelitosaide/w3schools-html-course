@@ -72,7 +72,7 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 
 Below is a visualization of an HTML page structure:
 
-![HTML Page Structure](assets/html_page_structure.png)
+![HTML Page Structure](assets/html-web-page-structure.png)
 
 > **Note:** The content inside the `<body>` section (the white area above) will be displayed in a browser. The content inside the `<title>` element will be shown in the browser's title bar or in the page's tab.
 
