@@ -126,3 +126,20 @@ Let the first row to be table header cells:
 ```
 
 By default, the text in `<th>` elements are bold and centered, but you can change that with CSS.
+
+## HTML Table Tags
+
+| Tag                                                             | Description                                                               |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [`<table>`](https://www.w3schools.com/tags/tag_table.asp)       | Defines a table                                                           |
+| [`<th>`](https://www.w3schools.com/tags/tag_th.asp)             | Defines a header cell in a table                                          |
+| [`<tr>`](https://www.w3schools.com/tags/tag_tr.asp)             | Defines a row in a table                                                  |
+| [`<td>`](https://www.w3schools.com/tags/tag_td.asp)             | Defines a cell in a table                                                 |
+| [`<caption>`](https://www.w3schools.com/tags/tag_caption.asp)   | Defines a table caption                                                   |
+| [`<colgroup>`](https://www.w3schools.com/tags/tag_colgroup.asp) | Specifies a group of one or more columns in a table for formatting        |
+| [`<col>`](https://www.w3schools.com/tags/tag_col.asp)           | Specifies column properties for each column within a `<colgroup>` element |
+| [`<thead>`](https://www.w3schools.com/tags/tag_thead.asp)       | Groups the header content in a table                                      |
+| [`<tbody>`](https://www.w3schools.com/tags/tag_tbody.asp)       | Groups the body content in a table                                        |
+| [`<tfoot>`](https://www.w3schools.com/tags/tag_tfoot.asp)       | Groups the footer content in a table                                      |
+
+> For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
