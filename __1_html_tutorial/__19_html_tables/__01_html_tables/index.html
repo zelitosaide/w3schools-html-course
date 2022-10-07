@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h1>HTML Tables</h1>
+
+  <h2>HTML &lt;caption&gt; Tag</h2>
+  <table>
+    <!-- The <caption> tag must be inserted immediately after the <table> tag. -->
+    <caption style="text-align:right;caption-side:bottom;">
+      Monthly savings
+    </caption>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>HTML &lt;colgroup&gt; Tag</h2>
+  <table>
+    <!-- 
+      The <colgroup> tag must be a child of a <table> 
+      element, after any <caption> elements and before any 
+      <thead>, <tbody>, <tfoot>, and <tr> elements.
+     -->
+    <colgroup>
+      <col span="2" style="background:red;">
+      <col style="background:yellow;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
