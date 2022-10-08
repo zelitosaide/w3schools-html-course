@@ -68,4 +68,28 @@ With the `border-style` property, you can set the appearance of the border.
 The following values are allowed:
 
 * `dotted`
-*  
+* `dashed`
+* `solid`
+* `double`
+* `groove`
+* `ridge`
+* `inset`
+* `outset`
+* `none`
+* `hidden`
+
+```css
+th, td {
+  border-style: dotted;
+}
+```
+
+## Border Color
+
+With the `border-color` property, you can set the color of the border.
+
+```css
+th, td {
+  border-color: #96D4D4;
+}
+```
