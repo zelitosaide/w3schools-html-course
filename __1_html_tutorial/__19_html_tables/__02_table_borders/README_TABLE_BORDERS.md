@@ -67,4 +67,5 @@ With the `border-style` property, you can set the appearance of the border.
 
 The following values are allowed:
 
-- `dotted`
+* `dotted`
+*  
