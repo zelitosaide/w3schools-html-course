@@ -48,6 +48,23 @@ With the `border-radius` property, the borders get rounded corners:
 ```css
 table, th, td {
   boder: 1px solid black;
-  border-radius: 10px
+  border-radius: 10px;
 }
 ```
+
+Skip the border around the table by leaving out `table` from the css selector:
+
+```css
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+```
+
+## Dotted Table Borders
+
+With the `border-style` property, you can set the appearance of the border.
+
+The following values are allowed:
+
+- `dotted`
