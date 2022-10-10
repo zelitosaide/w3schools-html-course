@@ -74,8 +74,7 @@ Lists can be nested (list inside list):
 ```html
 <ul>
   <li>Coffee</li>
-  <li>
-    Tea
+  <li>Tea
     <ul>
       <li>Black tea</li>
       <li>Green tea</li>
