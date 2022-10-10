@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #disc {
+      list-style-type: disc;
+    }
+
+    #circle {
+      list-style-type: circle;
+    }
+
+    #square {
+      list-style-type: square;
+    }
+
+    #none {
+      list-style-type: none;
+    }
+
+    #horizontal-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    #horizontal-list li {
+      float: left;
+    }
+
+    #horizontal-list li a {
+      display: block;
+      padding: 16px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    }
+
+    #horizontal-list li a:hover {
+      background-color: #111111;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>HTML Unordered Lists</h1>
+
+  <h2>Example - Disc</h2>
+  <ul id="disc">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>Example - Circle</h2>
+  <ul id="circle">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>Example - Square</h2>
+  <ul id="square">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>Example - none</h2>
+  <ul id="none">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>Nested HTML Lists</h2>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+
+  <h2>Horizontal List with CSS</h2>
+  <ul id="horizontal-list">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</body>
+
+</html>
